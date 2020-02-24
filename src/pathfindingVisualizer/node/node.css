@@ -1,0 +1,16 @@
+.node {
+  width: 2%;
+  padding-bottom: 2%; /* Same as width, sets height */
+  margin-right: 0%;
+  margin-bottom: 0%;
+  border: lightgray 1px solid;
+  position: relative;
+}
+
+.node-start {
+  background-color: lightgreen;
+}
+
+.node-finish {
+  background-color: lightcoral;
+}
