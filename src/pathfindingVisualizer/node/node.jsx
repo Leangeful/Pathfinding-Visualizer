@@ -12,9 +12,9 @@ class Node extends Component {
   }
 
   render() {
-    const { isStart, isFinish } = this.props;
+    const { row, col, isStart, isFinish } = this.props;
     const nodeType = this.getNodeType(isStart, isFinish);
-    return <div className={`node ${nodeType}`}></div>;
+    return <div id={`node-${row}-${col}`} className={`node ${nodeType}`}></div>;
   }
 }
 

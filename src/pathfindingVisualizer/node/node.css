@@ -14,3 +14,10 @@
 .node-finish {
   background-color: lightcoral;
 }
+
+.node-visited {
+  background-color: lightblue;
+}
+.node-shortest-path {
+  background-color: lightgoldenrodyellow;
+}
